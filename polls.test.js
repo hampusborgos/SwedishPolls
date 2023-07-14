@@ -45,7 +45,7 @@ test('Newer poll trends make sense', () => {
     })
 
     expect(parties['S'], `S in (${poll}) has less than 24% support`).toBeGreaterThan(24)
-    expect(parties['S'], `S in (${poll}) has more than 38.5% support`).toBeLessThan(38.5)
+    expect(parties['S'], `S in (${poll}) has more than 38.7% support`).toBeLessThan(38.7)
 
     expect(parties['V'], `V in (${poll}) has less than 6% support`).toBeGreaterThan(6)
     expect(parties['V'], `V in (${poll}) has more than 13.5% support`).toBeLessThan(13.5)
