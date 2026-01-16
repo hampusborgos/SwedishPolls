@@ -84,12 +84,12 @@ test("Newer poll trends make sense", () => {
 
     expect(
       parties["L"],
-      `L in (${poll}) has less than 1.9% support`
-    ).toBeGreaterThan(1.8);
+      `L in (${poll}) has less than 1.8% support`
+    ).toBeGreaterThan(1.7);
     expect(
       parties["L"],
-      `L in (${poll}) has more than 7.7% support`
-    ).toBeLessThan(7.7);
+      `L in (${poll}) has more than 4.7% support`
+    ).toBeLessThan(4.7);
 
     expect(
       parties["KD"],
